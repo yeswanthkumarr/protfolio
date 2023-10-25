@@ -36,32 +36,32 @@
   }
 }
 
-  /* Mobile styles */
+ /* Mobile styles */
 @media screen and (max-width: 768px) {
-    /* Adjust your styles for smaller screens */
     .horizontal-menu {
-        list-style: none; 
-        display: flex; 
-      }
-    
-      .horizontal-menu li {
-        margin-right: 2px;
-        
-      }
-      .logo{
-        height: 50px;
-        width: 100px;
-        border-radius: 5px;
-        float: left;
-      }
-      nav{
-        background-color: black;
-        border-radius: 5px;
-        height: 50px;
-      }
-      .horizontal-menu a {
-        text-decoration: none;
-        color: white;
-      }  
+      display: none; /* Hide the horizontal menu on smaller screens */
+    }
+  
+    .logo {
+      width: 100px; /* Adjust logo width as needed for mobile view */
+    }
+  
+    nav {
+      background-color: black; /* Background color for the navigation bar */
+      border-radius: 5px; /* Rounded corners for the navigation bar */
+    }
+  
+    ul.horizontal-menu {
+      display: block; /* Display the mobile menu items as a list */
+    }
+  
+    ul.horizontal-menu li {
+      padding-left: 250px;
+      margin-bottom: 10px; /* Add spacing between menu items vertically */  
+    }
+  
+    ul.horizontal-menu a {
+      color: white; /* Set the text color for mobile view */
+    }
   }
   
