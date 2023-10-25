@@ -42,7 +42,6 @@
     .horizontal-menu {
         list-style: none; 
         display: flex; 
-        float: left;
       }
     
       .horizontal-menu li {
