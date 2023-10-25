@@ -39,20 +39,13 @@
 @media screen and (max-width: 768px) {
     /* Adjust your styles for smaller screens */
     .horizontal-menu {
-        list-style: none; 
-        display: flex; 
-        float: right;
-    }
-    .logo{
-        height: 10px;
-        width: 50px;
+        flex-direction: column; /* Stack menu items vertically on smaller screens */
+        text-align: center; /* Center-align menu items */
       }
-      nav{
-        background-color: black;
-        border-radius: 5px;
-      }
+    
       .horizontal-menu li {
-        margin-right: 2px; 
+        margin-right: 0; /* Remove right margin for mobile view */
+        margin-bottom: 10px; /* Add spacing between menu items vertically */
       }
   }
   
