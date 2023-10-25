@@ -1,4 +1,4 @@
-
+@media screen and (min-width: 769px) {
 .horizontal-menu {
     list-style: none; 
     display: flex; 
@@ -34,6 +34,7 @@
     border-radius: 30px;
     margin-top: 0.2%;
   }
+}
 
   /* Mobile styles */
 @media screen and (max-width: 768px) {
@@ -45,7 +46,7 @@
     
       .horizontal-menu li {
         margin-right: 0; /* Remove right margin for mobile view */
-        margin-bottom: 10px; /* Add spacing between menu items vertically */
+        margin-bottom: 2px; /* Add spacing between menu items vertically */
       }
   }
   
