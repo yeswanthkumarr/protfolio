@@ -49,6 +49,7 @@
     nav {
       background-color: black; /* Background color for the navigation bar */
       border-radius: 5px; /* Rounded corners for the navigation bar */
+      display: block;
     }
   
     ul.horizontal-menu {
