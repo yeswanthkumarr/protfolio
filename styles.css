@@ -41,8 +41,7 @@
     /* Adjust your styles for smaller screens */
     .horizontal-menu {
         list-style: none; 
-    display: flex; 
-    float: right;
+        display: flex; 
       }
     
       .horizontal-menu li {
@@ -56,11 +55,11 @@
       }
       nav{
         background-color: black;
-        border-radius: 20px;
+        border-radius: 5px;
         height: 50px;
       }
       .horizontal-menu a {
-        text-decoration: none; 
+        text-decoration: none;
         color: white;
       }  
   }
