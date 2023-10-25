@@ -34,3 +34,12 @@
     border-radius: 30px;
     margin-top: 0.2%;
   }
+
+  /* Mobile styles */
+@media screen and (max-width: 768px) {
+    /* Adjust your styles for smaller screens */
+    .horizontal-menu {
+      flex-direction: column; /* Stack menu items vertically on smaller screens */
+    }
+  }
+  
