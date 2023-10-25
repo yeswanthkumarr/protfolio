@@ -39,7 +39,20 @@
 @media screen and (max-width: 768px) {
     /* Adjust your styles for smaller screens */
     .horizontal-menu {
-      flex-direction: column; /* Stack menu items vertically on smaller screens */
+        list-style: none; 
+        display: flex; 
+        float: right;
     }
+    .logo{
+        height: 10px;
+        width: 50px;
+      }
+      nav{
+        background-color: black;
+        border-radius: 5px;
+      }
+      .horizontal-menu li {
+        margin-right: 2px; 
+      }
   }
   
