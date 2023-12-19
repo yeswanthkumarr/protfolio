@@ -36,33 +36,45 @@
   }
 }
 
- /* Mobile styles */
+ /* Adjusted CSS for screens up to 768px (including mobile) */
 @media screen and (max-width: 768px) {
-    .horizontal-menu {
-      display: none; /* Hide the horizontal menu on smaller screens */
-    }
-  
-    .logo {
-      width: 100px; /* Adjust logo width as needed for mobile view */
-    }
-  
-    nav {
-      background-color: black; /* Background color for the navigation bar */
-      border-radius: 5px; /* Rounded corners for the navigation bar */
-      display: block;
-    }
-  
-    ul.horizontal-menu {
-      display: block; /* Display the mobile menu items as a list */
-    }
-  
-    ul.horizontal-menu li {
-      padding-left: 250px;
-      margin-bottom: 10px; /* Add spacing between menu items vertically */  
-    }
-  
-    ul.horizontal-menu a {
-      color: white; /* Set the text color for mobile view */
-    }
+  .horizontal-menu {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; /* Center items */
+    flex-wrap: wrap; /* Wrap items on smaller screens */
   }
+
+  .horizontal-menu li {
+    margin-right: 10px; /* Reduced margin for smaller screens */
+    margin-bottom: 10px; /* Add margin bottom for spacing */
+  }
+
+  .horizontal-menu a {
+    text-decoration: none; 
+    color: white;
+  }  
+  
+  .horizontal-menu a:hover {
+    text-decoration: underline;
+  }
+  
+  .horizontal-menu a:active {
+    font-weight: bold;
+  }
+
+  nav {
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px; /* Adjust padding for smaller nav */
+  }
+
+  .logo {
+    height: 55px;
+    width: 150px; /* Adjust logo size for smaller screens */
+    border-radius: 20px; /* Adjust border-radius */
+    margin: 10px auto; /* Center logo */
+  }
+}
+
   
