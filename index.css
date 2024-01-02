@@ -2,6 +2,12 @@ body{
 
   background-color:#F8F9FA;
 }
+.col-lg-3:hover{
+transform: scale(1.1);
+}
+.card-img-top:hover{
+  transform: scale(1.1);
+}
 .align{
  margin-left: 35%;
 }
@@ -532,7 +538,7 @@ user-select: none;
   .nav-link{
 
       border-bottom: 1px solid black;
-      width: 90%;
+      width: 100%;
     
   }
   .nav-link:hover{
